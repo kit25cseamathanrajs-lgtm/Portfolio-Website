@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mathan - Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">Mathan's Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="hero-section">
+        <div class="hero-content">
+            <img src="mathanphoto.png" alt="Mathan" class="profile-img">
+            <h1>Hi, I'm Mathanraj S</h1>
+            <p>A passionate aspiring developer currently working on my internship projects. I love building Clean, Functional, and User-friendly web Applications.</p>
+        </div>
+    </section>
+
+    <section id="education" class="container">
+        <h2>Education</h2>
+        <div class="card">
+            <h3>BE-COMPUTER SCIENCE ENGINEERING</h3>
+            <p><strong>KIT-KALIGNARKARUNANIDHI INSTITUTE OF TECHNOLOGY</strong> | 2025 - 2029</p>
+            <p>Relevant coursework: Web Development, Data Structures, Database Management.</p>
+        </div>
+    </section>
+
+    <section id="skills" class="container">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <span class="skill-badge">HTML5</span>
+            <span class="skill-badge">CSS3</span>
+            <span class="skill-badge">JavaScript</span>
+            <span class="skill-badge">Git & GitHub</span>
+            <span class="skill-badge">Responsive Design</span>
+        </div>
+    </section>
+
+    <section id="projects" class="container">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="card">
+                <h3>EMPOLYEE RECORD SYSTEM</h3>
+                <p>The Employee Record System is a  simple C program thatuses file handling to store and manage employee datapermanently. It uses a structure to hold details such asemployee ID, name, and salary, and provides a menu-driveninterface to add, display, search, update, and delete records.File operations such as reading, writing, and using atemporary file ensure that data is managed safely andefficiently. This projectdemonstrates the practical use of Cfile handling and shows how real-world data can be storedand modified even after the program ends.</p>
+                <a href="https://github.com/kit25cseamathanrajs-lgtm/EMPLOYEE-RECORD-SYSTEM" class="btn">View Project</a>
+            </div>
+            <div class="card">
+                <h3>SYSTEM MONITER</h3>
+                <p>System monitoring means tracking the performance and resource usage of a computer system. Two important resources are:
+
+CPU (Central Processing Unit): Measures how much processing power is being used.
+RAM (Random Access Memory): Measures how much memory is currently in use.
+
+Python can monitor these resources using the psutil library.</p>
+                <a href="https://github.com/kit25cseamathanrajs-lgtm/System-Moniter" class="btn">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact Me</h2>
+        <p style="text-align: center;margin-bottom:20px;font-size:1.1rem;">
+            <strong>My Email:</strong>kit25cseamathanrajs@gmail.com</p>
+        <form class="contact-form" onsubmit="event.preventDefault(); alert('Message sent!');">
+            <input type="text" placeholder="your name" required>
+            <input type="email" placeholder="your email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Mathan. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
